@@ -33,6 +33,13 @@ sessionStorage.setItem('name', 'Gordon');
 sessionStorage.removeItem('name');
 localStorage.removeItem('name');
 
+document.querySelector('form').addEventListener('submit', function(e){
+console.log(123);
+
+  e.preventDefault();
+  
+});
+
 
 
 
