@@ -1,23 +1,46 @@
-console.log('hello');
+// console.log('hello');
 
-// letters, numbers, _, $
-// can not start with a number
-console.log('hellp');
-let num = String(555);
+// // letters, numbers, _, $
+// // can not start with a number
+// console.log('hellp');
+// let num = String(555);
 
-console.log(num);
-console.log(typeof num);
+// console.log(num);
+// console.log(typeof num);
 
-let arr = new Array(5,6,7);
+// let arr = new Array(5,6,7);
 
-console.log(arr); 
+// console.log(arr); 
 
-const companies = ['fa','gg'];
+// const companies = ['fa','gg'];
 
-for(let i = 0; i < companies.length; i++) {
- console.log(companies[i]);
-}
+// for(let i = 0; i < companies.length; i++) {
+//  console.log(companies[i]);
+// }
 
-companies.forEach(function(co, iv, ar){
- return console.log(co[iv], ar)
+// companies.forEach(function(co, iv, ar){
+//  return console.log(co[iv], ar)
+// })
+
+document.querySelector('.clear-tasks').addEventListener('click', function(e){
+  console.log("Hello world");
+
+  //e.preventDefault();
 })
+
+localStorage.setItem('name', 'John');
+sessionStorage.setItem('name', 'Gordon');
+sessionStorage.removeItem('name');
+localStorage.removeItem('name');
+
+
+
+
+
+
+
+
+
+
+
+
